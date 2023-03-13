@@ -9,6 +9,8 @@ else
     $uc = $_GET["uc"];
 }
 
+include("vues/header.php");
+
 switch($uc)
 {
     case 'accueil':
@@ -22,4 +24,7 @@ switch($uc)
         break;
     }
 }
+
+include("vues/footer.php");
+
 ?>

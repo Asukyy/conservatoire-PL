@@ -9,22 +9,22 @@ private static $mdp='' ;
 private static $monPdo;
 private static $unPdo = null;
 
-//	Constructeur privé, crée l'instance de PDO qui sera sollicitée
-//	pour toutes les méthodes de la classe
-private function __construct()
+//    Constructeur privé, crée l'instance de PDO qui sera sollicitée
+//    pour toutes les méthodes de la classe
+private function construct()
 {
     MonPdo::$unPdo = new PDO(MonPdo::$serveur.';'.MonPdo::$bdd, MonPdo::$user, MonPdo::$mdp);
     MonPdo::$unPdo->query("SET CHARACTER SET utf8");
     MonPdo::$unPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
-public function __destruct()
+public function destruct()
 { 
     MonPdo::$unPdo = null;
 }
 /**
-*	Fonction statique qui cree l'unique instance de la classe
+*    Fonction statique qui cree l'unique instance de la classe
 * Appel : $instanceMonPdo = MonPdo::getMonPdo();
-*	@return l'unique objet de la classe MonPdo
+*    @return l'unique objet de la classe MonPdo
 */
 public static function getInstance()
 {
