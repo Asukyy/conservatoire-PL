@@ -20,7 +20,7 @@ switch($uc)
     }
     case 'conservatoire':
     {
-        include("controller/controlleurConservatoire.php");
+        include("controller/controleurConservatoire.php");
         break;
     }
 }
