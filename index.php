@@ -9,8 +9,6 @@ else
     $uc = $_GET["uc"];
 }
 
-include("vues/header.php");
-
 switch($uc)
 {
     case 'accueil':
