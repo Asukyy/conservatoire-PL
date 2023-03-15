@@ -11,7 +11,7 @@
         <nav class="menu" role="navigation">
 
             <div class="m-left">
-                <h1 class="logo">Consedvatoire</h1>
+                <h1 class="logo">Conservatoire</h1>
             </div>
             <div class="m-left">
                 <a href ="#">Accueil</a>
