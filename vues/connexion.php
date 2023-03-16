@@ -17,7 +17,7 @@
         <form method="POST">
             <div class="con">
                 <header class="head-form">
-                    <h2>Log In</h2>
+                    <h2>Log-In</h2>
                     <p>Connectez-vous ici en utilisant votre nom d'utilisateur et votre mot de passe</p>
                 </header>
                 <br>
@@ -37,7 +37,7 @@
                         <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
                     </span>
                     <br>
-                    <button class="log-in"> Log In </button>
+                    <button class="log-in" name="login">Login</button>
                 </div>
 
                 <div class="other">
