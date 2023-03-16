@@ -160,10 +160,16 @@ span.m-toggle-icon::after{
 @media screen and (max-width: 480px) {
 
 .logo{
-    width: 25vh;
-    margin-top: 3.5vh;
+    width: 20vh;
+    margin-top: 2.5vh;
 }
 }
-
+/* 375 */
+@media screen and (max-width: 375px) {
+    .logo{
+        width: 25vh;
+        margin-top: 3.5vh;
+    }
+}
 
 
