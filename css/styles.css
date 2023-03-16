@@ -1,4 +1,14 @@
-body{
-    margin:0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Ubuntu:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+
+body {
+
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(226, 221, 211);
+    opacity: .95;
+    overflow-x: hidden;
 }
+

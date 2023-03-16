@@ -3,8 +3,8 @@ class MonPdo
 {
 
 private static $serveur='mysql:host=localhost';
-private static $bdd='dbname=conservatoireefrei'; 
-private static $user='root' ; 
+private static $bdd='dbname=conservatoireefrei';
+private static $user='root' ;
 private static $mdp='' ;
 private static $monPdo;
 private static $unPdo = null;
@@ -18,7 +18,7 @@ private function __construct()
     MonPdo::$unPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 public function __destruct()
-{ 
+{
     MonPdo::$unPdo = null;
 }
 /**

@@ -8,17 +8,15 @@
     <title>Conservatoire_PL</title>
 </head>
 <body>
+<?php include("../header/header.php"); ?>
+
 <div class="container">
     <div class="row">
         <div class="col">
             <h1 class="text-center text-danger mt-3">Bienvenue </h1>
         </div>
     </div>
-   
-    <?php
 
-include("vues/listeP.php");
-
-?>  
+    <?php include("listeP.php"); ?>
 </body>
 </html>

@@ -1,7 +1,6 @@
 <?php
-include("vues/header.php");
-include("vues/footer.php");
-include("modele/monPdo.php");
+include("footer.php");
+include("../modele/monPdo.php");
 
 $unPdo = MonPdo::getInstance(); // Crée une instance de la classe MonPdo
 
@@ -16,5 +15,5 @@ foreach($result as $produit)
     echo "<p>" . $produit['TEL'] . "</p>";
     echo "<p>" . $produit['ADRESSE'] . "</p>";
     echo "</div>";
-} 
+}
 ?>

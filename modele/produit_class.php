@@ -59,9 +59,9 @@ public function setAdresse($adresse){
 public function __toString(){
     return "id: " . $this->id . "nom: " . $this->nom . "prenom: " . $this->prenom . "tel: " . $this->tel . "mail: " . $this->mail . "adresse: " . $this->adresse;
 }
-    
+
 public static function afficherTousLesProduits(){
-    $req = MonPdo::getInstance()->prepare("SELECT * FROM conservatoireefrei.personne"); 
+    $req = MonPdo::getInstance()->prepare("SELECT * FROM conservatoireefrei");
     $req->setFetchMode(PDO::FETCH_CLASS|PDO::PROPS_LATE, 'Personne');
     $req->execute();
     $lesProduits = $req->fetchAll();
