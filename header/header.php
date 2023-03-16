@@ -17,9 +17,9 @@
                 <img src="../images/conservatoirelogo.png" alt="logo" class="logo">
             </div>
             <div class="m-right">
-                <a href ="#" class="m-link"><i class='fas fa-file-alt'></i>Emploie du temps</a>
-                <a href ="#" class="m-link"><i class='fas fa-book-open'></i>Eleves</a>
-                <a href ="#" class="m-link"><i class='fas fa-edit'></i>Gestion cours</a>
+                <a href ="../vues/emploie.php" class="m-link"><i class='fas fa-file-alt'></i>Emploie du temps</a>
+                <a href ="../vues/eleves.php" class="m-link"><i class='fas fa-book-open'></i>Eleves</a>
+                <a href ="../vues/gestion.php" class="m-link"><i class='fas fa-edit'></i>Gestion cours</a>
             </div>
             <div class="m-nav-toggle">
                 <span class="m-toggle-icon"></span>

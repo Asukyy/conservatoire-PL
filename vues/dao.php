@@ -8,14 +8,14 @@ if (isset($_POST['pseudo']) && isset($_POST['motdepasse'])) {
     $motdepasse = $_POST['motdepasse'];
 
     // Recherche de l'utilisateur dans la base de données
-    $stmt = $unPdo->prepare("SELECT * FROM admins WHERE pseudo=:pseudo AND password=:motdepasse");
+    $stmt = $unPdo->prepare("SELECT * FROM admins WHERE pseudo=:pseudo OR email=:pseudo AND password=:motdepasse");
     $stmt->execute(array('pseudo' => $pseudo, 'motdepasse' => $motdepasse));
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($user) {
         // Si l'utilisateur est trouvé, stockez ses informations dans la session et redirigez-le vers la page d'accueil
         $_SESSION['user'] = $user;
-        header('Location: vues/accueil.php');
+        header('Location: vues/eleves.php');
         exit();
     } else {
         // Si l'utilisateur n'est pas trouvé, afficher un message d'erreur
