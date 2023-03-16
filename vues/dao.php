@@ -21,5 +21,10 @@ if (isset($_POST['pseudo']) && isset($_POST['motdepasse'])) {
         // Si l'utilisateur n'est pas trouvé, afficher un message d'erreur
         $message = "Nom d'utilisateur ou mot de passe incorrect";
     }
+
+    if (isset($_POST['signup'])) {
+    //    message console
+        echo "signup";
+    }
 }
 ?>

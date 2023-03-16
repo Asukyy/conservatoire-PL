@@ -1,6 +1,3 @@
-<?php
-include('dao.php')
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +10,7 @@ include('dao.php')
 <body>
     <?php
      include("header/headerco.php");
+     include('dao.php')
     ?>
 
     <div class="overlay">
@@ -43,10 +41,10 @@ include('dao.php')
                 </div>
 
                 <div class="other">
-                    <button class="btn submits frgt-pass">Forgot Password</button>
-                    <button class="btn submits sign-up">Sign Up
-                    <i class="fa fa-user-plus" aria-hidden="true"></i>
-                    </button>
+                <button class="btn submits frgt-pass" name="forgot">Forgot Password</button>
+                <button class="btn submits sign-up" name="signup">Sign Up
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                </button>
                 </div>
                 <?php if (isset($message)) { echo "<p class='error'>$message</p>"; } ?>
             </div>
