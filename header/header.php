@@ -18,9 +18,9 @@
             </div>
             <div class="m-right">
                 <!-- <a href ="#" class="m-link"><i class="fa-solid fa-house"></i></i>Accueil</a> -->
-                <a href ="#" class="m-link"><i class="fa-solid fa-house"></i>Emploie du temps</a>
-                <a href ="#" class="m-link"><i class="fa-solid fa-house"></i>Eleves</a>
-                <a href ="#" class="m-link"><i class="fa-solid fa-house"></i>Gestion cours</a>
+                <a href ="#" class="m-link"><i class='fas fa-file-alt'></i>Emploie du temps</a>
+                <a href ="#" class="m-link"><i class='fas fa-book-open'></i>Eleves</a>
+                <a href ="#" class="m-link"><i class='fas fa-edit'></i>Gestion cours</a>
             </div>
             <div class="m-nav-toggle">
                 <span class="m-toggle-icon"></span>

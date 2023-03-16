@@ -13,7 +13,9 @@ body{
 }
 
 .menu {
-    background: #91835d;
+    /* background: #91835d; */
+    /* background degradé */
+    background: linear-gradient(-225deg, #91835d 50%, #141313 50%);
     width: 100%;
     height: 70px;
     line-height: 66px;
@@ -140,7 +142,7 @@ span.m-toggle-icon::after{
     top:66px;
     width: 200px;
     height: 100%;
-    background-color: #91835d;
+    background-color: #141313;
     transform: translateX(100%);
     transition: all 0.3s ease;
 }
