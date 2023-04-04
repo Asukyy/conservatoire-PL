@@ -118,6 +118,7 @@ span.m-toggle-icon::after{
 
 .m-right.is-open{
     transform: translateX(0);
+    display:block;
 }
 
 .m-nav-toggle.is-open span.m-toggle-icon
@@ -148,6 +149,7 @@ span.m-toggle-icon::after{
     background-color: #141313;
     transform: translateX(100%);
     transition: all 0.3s ease;
+    display:none;
 }
 .m-link{
     display: block;

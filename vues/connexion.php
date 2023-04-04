@@ -10,8 +10,10 @@
 <body>
     <?php
      include("header/headerco.php");
-     include('dao.php')
-    ?>
+    //  dao
+    include("controller/dao.php");
+
+     ?>
 
     <div class="overlay">
         <form method="POST">
@@ -25,7 +27,7 @@
                     <span class="input-item">
                         <i class="fa fa-user-circle"></i>
                     </span>
-                    <input class="form-input" id="txt-input" type="text" name="pseudo" placeholder="Username or email" required>
+                    <input class="form-input" id="txt-input" type="text" name="pseudo" placeholder="Username" required>
                     <br>
                     <span class="input-item">
                         <i class="fa fa-key"></i>
@@ -42,14 +44,16 @@
 
                 <div class="other">
                 <button class="btn submits frgt-pass" name="forgot">Forgot Password</button>
-                <button class="btn submits sign-up" name="signup">Sign Up
-                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                <button class="btn submits sign-up" name="signup" onclick="window.location.href='vues/signup.php'">Sign Up
+                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                </button>
                 </button>
                 </div>
                 <?php if (isset($message)) { echo "<p class='error'>$message</p>"; } ?>
             </div>
         </form>
     </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
