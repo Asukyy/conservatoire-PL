@@ -9,3 +9,4 @@ switch($action){
         include("../vues/listeP.php");
         break;
 }
+?>

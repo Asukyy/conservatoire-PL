@@ -15,7 +15,7 @@ if (isset($_POST['pseudo']) && isset($_POST['motdepasse'])) {
     if ($user) {
         // Si l'utilisateur est trouvé, stockez ses informations dans la session et redirigez-le vers la page d'accueil
         $_SESSION['user'] = $user;
-        header('Location: vues/eleves.php');
+        header('Location: vues/accueil.php');
         exit();
     } else {
         // Si l'utilisateur n'est pas trouvé, afficher un message d'erreur

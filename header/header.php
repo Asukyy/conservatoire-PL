@@ -14,7 +14,9 @@
 
         <div class="inner">
         <div class="m-left">
+            <a href ="../vues/accueil.php">
                 <img src="../images/conservatoirelogo.png" alt="logo" class="logo">
+                </a>
             </div>
             <div class="m-right">
                 <a href ="../vues/emploie.php" class="m-link"><i class='fas fa-file-alt'></i>Emploie du temps</a>
