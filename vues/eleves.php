@@ -25,6 +25,8 @@
                 <input type="email" name="mail" placeholder="Mail">
                 <input type="text" name="tel" placeholder="Téléphone">
                 <input type="text" name="adresse" placeholder="Adresse">
+                <!-- choix de l'instrument parmit ceux de la table instrument -->
+                
                 <input type="submit" name="adduser" value="Ajouter">
             </form>
             </div>

@@ -10,6 +10,10 @@ body {
     background-color: rgb(226, 221, 211);
     opacity: .95;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    align-items: center;
 }
 
 .container {
@@ -160,6 +164,11 @@ table {
   .formmodif input[type="submit"]:hover {
     background-color: #645b41;
   }
+
+  /* accueil */
+
+
+
 
 
 
