@@ -1,6 +1,5 @@
 # conservatoire-PL
 
-conservatoire-PL
 Site intranet de gestion des elèves du conservatoire "Musique Pour Tous" Ce projet fonctionne en C# Utilisation :
 
 Rentrez vos identifiants admnistrateurs afin d'acceder à l'application
