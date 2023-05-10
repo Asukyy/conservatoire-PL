@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/connexion.css">
+    <link rel="stylesheet" href="css/connexion.css">
 </head>
 <body>
     <?php
-     include("../header/headerco.php");
+     include("header/headerco.php");
 
      ?>
 
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="other">
-                    <button class="btn submits sign-up" name="signup" onclick="window.location.href='../'">Login
+                    <button class="btn submits sign-up" name="signup" onclick="window.location.href=''">Login
                         <i class="fa fa-user-plus" aria-hidden="true"></i>
                     </button>
                 </div>
@@ -59,7 +59,7 @@
         </form>
     </div>
 
-    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
