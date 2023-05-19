@@ -1,6 +1,6 @@
 <?php
 include("footer.php");
-include("modele/monPdo.php");
+include("../modele/monPdo.php");
 
 $unPdo = MonPdo::getInstance(); // Crée une instance de la classe MonPdo
 

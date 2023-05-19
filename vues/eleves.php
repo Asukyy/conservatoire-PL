@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Conservatoire_PL</title>
 </head>
 <body>
-<?php include("header/header.php");
+<?php include("../header/header.php");
 
 ?>
 
@@ -26,7 +26,7 @@
                 <input type="text" name="tel" placeholder="Téléphone">
                 <input type="text" name="adresse" placeholder="Adresse">
                 <!-- choix de l'instrument parmit ceux de la table instrument -->
-                
+
                 <input type="submit" name="adduser" value="Ajouter">
             </form>
             </div>
