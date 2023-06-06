@@ -2,9 +2,9 @@
 class MonPdo
 {
     private static $serveur='mysql:host=localhost';
-    private static $bdd='dbname=kurghsvm_conservatoire';
-    private static $user='root' ;
-    private static $mdp='' ;
+    private static $bdd='dbname=nom-bdd';
+    private static $user='nom-user' ;
+    private static $mdp='nom-mdp' ;
     private static $monPdo;
     private static $unPdo = null;
 
